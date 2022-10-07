@@ -66,6 +66,48 @@ button {
   background-color: #3882f6;
   font-size: 18px;
 }
+/*Random information section*/
+.rand-info {
+  padding-bottom: 70px;
+}
+.rand-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.tiles {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 150px;
+}
+
+.square {
+  border-radius: 10px;
+  border: 3px solid #3882f6;
+  width: 150px;
+  height: 150px;
+}
+
+.text {
+  align-self: center;
+  text-align: center;
+  color: #1f2937;
+}
+
+/*Footer section*/
+/*Todo: make footer automatically stick to the bottom*/
 
 footer {
   display: flex;
