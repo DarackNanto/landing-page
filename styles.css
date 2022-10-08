@@ -2,6 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  min-height: 100vh;
 }
 
 ul {
@@ -133,6 +134,28 @@ button {
   padding-right: 30px;
 }
 
+/*Action section*/
+.rectangle {
+  background-color: #3882f6;
+  margin: 50px 100px;
+  padding: 50px 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.action-title {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.action-text {
+  color: #f9faf8;
+}
+
+#action {
+  border: 3px solid #f9faf8;
+}
+
 /*Footer section*/
 /*Todo: make footer automatically stick to the bottom*/
 
@@ -140,4 +163,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2.5rem;
 }
