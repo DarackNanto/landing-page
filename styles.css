@@ -106,6 +106,33 @@ button {
   color: #1f2937;
 }
 
+/*quote section*/
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+}
+.quote-text,
+.quote-author {
+  color: #1f2937;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 18px;
+  font-weight: bold;
+  align-self: flex-end;
+  padding-right: 30px;
+}
+
 /*Footer section*/
 /*Todo: make footer automatically stick to the bottom*/
 
